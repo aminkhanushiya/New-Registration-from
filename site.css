@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-color: #7A5CFA;
+    --box-color: #fff;
+    --txt-color:#666666;
+    --borde-color:#CCCCCC;
+    --error-colr:red;
+}
+
+.main {
+    background-color: var(--body-color);
+    padding: 50px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.box {
+    background-color: var(--box-color);
+    padding: 30px;
+    border-radius:42px ;
+    margin-bottom: 30px;
+}
+.lableblock
+{
+    display: block;
+    margin-bottom: 10px;
+    color: var(--txt-color);
+}
+.inputwrap
+{
+    width: 100%;
+    padding: 14px;
+    outline: none;
+    border: 1px solid var(--borde-color);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.sportlabel
+{
+    color: var(--txt-color);
+}
+.inputwrap option
+{
+    color: var(--txt-color);
+}
+.form-btn
+{
+    display: flex;
+    justify-content: space-between;
+}
+.btn
+{
+    padding: 10px 40px;
+    background-color: var(--box-color);
+    border: 1px solid var(--body-color);
+    border-radius: 5px;
+}
+.unfill
+{
+    color: var(--body-color);
+}
+.fill
+{
+    background-color: var(--body-color);
+    color: var(--box-color);
+}
+.nameError, .emailError, .passwordError, .addressError, .sportError, .genderError, .countryError
+{
+    color: var(--error-colr);
+    margin-bottom: 20px;
+    display: block;
+    margin-top: 0;
+}
+.d_none 
+{
+    display: none;
+}
+
+.border_error
+{
+    border-color: var(--error-colr);
+}
+
+.data-box
+{
+    background-color: var(--box-color);
+    padding: 30px;
+    border-radius:42px ;
+}
+.mesaage .nodata
+{
+    font-size: 45px;
+    text-align: center;
+}
+ table
+{
+    width: 100%;
+    text-align: left;
+}
+.creattable
+{
+    display: none;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragistration from</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="box">
+                <!-- from input start -->
+                <form>
+                    <!-- name -->
+                    <label class="lableblock">Name</label>
+                    <input class="inputwrap"+ type="text" name="name" id="firstName" placeholder="Enter Name">
+                    <!-- error-msg -->
+                     <span class="d_none nameError" id="nameError">Plese Enter Name</span>
+
+                    <!-- email -->
+                    <label class="lableblock">Email</label>
+                    <input class="inputwrap" type="email" name="email" id="email" placeholder="Enter Email">
+                    <!-- error-msg -->
+                     <span class="d_none emailError" id="emailError">Plese Enter Email</span>
+
+                    <!-- password -->
+                    <label class="lableblock">Password</label>
+                    <input class="inputwrap" type="text" name="password" id="password" placeholder="Enter Password">
+                    <!-- error-msg -->
+                     <span class="d_none passwordError" id="passwordError">Plese Enter Password</span>
+
+                    <!-- address -->
+                    <label class="lableblock">Address</label>
+                    <input class="inputwrap" type="text" name="address" id="address" placeholder="Enter Address">
+                    <!-- error-msg -->
+                     <span class="d_none addressError" id="addressError">Plese Enter Address</span>
+
+                    <!-- chekbox sports -->
+                    <label class="lableblock">Choose your sports</label>
+                    <!-- cricket -->
+                    <input class="inputwrapsport" type="checkbox" name="sport" id="cricket" value="Cricket">
+                    <label class="sportlabel" for="cricket">Cricket</label><br><br>
+                    <!-- Football -->
+                    <input class="inputwrapsport" type="checkbox" name="sport" id="football" value="Football">
+                    <label class="sportlabel" for="football">Football</label><br><br>
+                    <!-- Baseball -->
+                    <input class="inputwrapsport" type="checkbox" name="sport" id="baseball" value="Baseball">
+                    <label class="sportlabel" for="baseball">Baseball</label><br><br>
+                    <!-- error-msg -->
+                     <span class="d_none sportError" id="sportError">Plese select Sport</span>
+
+                    <!-- radio gender -->
+                    <label class="lableblock">Choose your gender</label>
+                    <!-- male -->
+                    <input class="inputwrapsport" type="radio" name="gender" id="male" value="Male">
+                    <label class="sportlabel" for="male">Male</label><br><br>
+                    <!-- female -->
+                    <input class="inputwrapsport" type="radio" name="gender" id="female" value="Female">
+                    <label class="sportlabel" for="female">Female</label><br><br>
+                    <!-- pfns -->
+                    <input class="inputwrapsport" type="radio" name="gender" id="pfns" value=" Prefer not to say">
+                    <label class="sportlabel" for="pfns"> Prefer not to say</label><br><br>
+                    <!-- error-msg -->
+                     <span class="d_none genderError" id="genderError">Plese select Gender</span>
+
+                    <!-- country -->
+                    <label class="lableblock">Select your country</label>
+                    <select class="inputwrap" name="country" id="country">
+                        <option value="">Select your country</option>
+                        <option value="Indai">Indai</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="UAE">UAE</option>
+                    </select>
+                    <!-- error-msg -->
+                    <span class="d_none countryError" id="countryError">Plese select Country</span>
+                </form>
+                <!-- form input end -->
+                <!-- form-btn -->
+                <div class="form-btn">
+                    <!-- reset -->
+                    <button onclick="resetdata()" class="btn unfill">Reset</button>
+                    <!-- save -->
+                    <button onclick="savebtnclic()" id="mysavebtn" class="btn fill">Save</button>
+                </div>
+            </div>
+            <div class="data-box">
+               <div class="mesaage">
+                <h1 class="nodata" id="noData">No User Added</h1>
+               </div>
+               <div class="creattable" id="creatTable">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Address</th>
+                        <th>Sport</th>
+                        <th>Gender</th>
+                        <th>Country</th>
+                        <th>Edits</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tbody id="tblbody">
+
+                    </tbody>
+                </table>
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</bo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   dy>
+
+</html>
